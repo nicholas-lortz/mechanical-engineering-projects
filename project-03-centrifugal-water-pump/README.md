@@ -51,15 +51,5 @@ The full sizing + verification workflow is implemented in:
 Notable controls in the script:
 - `overrideBladeCount` — used to manually enforce a blade count when the solidity check fails the target band (the design converged to a higher blade count than the initial rounded estimate).
 
-## Files
-- `report/EGME452Project_REDACTED.pdf` — report version safe for public sharing
-- `analysis/Script.m` — MATLAB analysis script
-
-## Visuals (Add)
-Recommended images to include in `/images`:
-- Cordier diagram selection snapshot (with your plotted operating point)
-- Inlet/outlet velocity triangles
-- Blade profile plot (r–θ, or planform)
-
 ## Notes
 This project demonstrates end-to-end mechanical design reasoning: converting requirements into turbomachinery selection, geometry sizing, and verification against stability/quality metrics (solidity, diffusion).
